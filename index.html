@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="Logoalura" src="./imagenes/Logo.png">
+            <h2><strong>CHALLENGER 1 Encriptador</strong></h2>         
+        </header>
+        <main>
+            <section >
+                <textarea type="text" id="ingresotexto" class="input-text"  cols="40" rows="6" placeholder="Ingrese el texto aqui"></textarea>               
+                <img class="signoadv" src="./imagenes/signoAdvertencia.png">
+                <div>
+                    <button type="button" class="btnencriptar" onclick="btnencriptar()">Encriptar</button>
+                    <button type="button" class="btndesencriptar" onclick="btndesencriptar()">Desencriptar</button>
+                </div>            
+            </section>
+
+            <section >
+                <textarea type="text" cols="18" rows="8" id="salidatexto" class="input-text-area" placeholder="Texto encriptado"></textarea>
+                <img class="muneco" src="imagenes/Muñeco.png">
+                <img class="rectangulo" src="imagenes/Rectangle 1.png">
+                <img class="ningunmensaje" src="imagenes/Frame 5.png">
+            </section>
+
+            <section>
+                <button type="button" class="btncopiar" onclick="copiartexto()">Copiar</button>
+            </section>
+        </main>
+
+        <footer>
+            <img class="linkedlin" src="imagenes/linkedin.png"> <p>www.linkedin.com/in/daniel-cremaschi-ba8b301b2</p>
+            <p class="nombre">Daniel Cremaschi</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

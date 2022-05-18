@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #e5e5e5;
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+main{
+    display:flex; 
+
+}
+
+.Logoalura {
+    position: absolute;
+    top: 50px;
+}
+
+h2{
+    top: 50px;
+    left: 200px;
+    position: absolute;
+    text-align: center;
+    font-style: normal;
+    font-size: 100px;
+    color: blue;
+}
+
+.input-text{
+    background-color: #E5E5E5;
+    position: absolute;
+    outline: none;
+    border: 0px;
+    width: 700px;
+    height: 300px;
+    left: 150px;
+    top: 150px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #0A3871;
+
+}
+
+.input-text-area{
+    position: absolute;
+    border: 0px;
+    outline: none;
+    width: 336px;
+    height: 400px;
+    left: 930px;
+    top: 72px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #131212;
+}
+
+
+
+.btnencriptar{
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 130px;
+    top: 550px;
+
+    background: #0A3871;
+    border-radius: 22px;
+
+    color: #FFFFFF;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.btndesencriptar{
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 510px;
+    top: 550px;
+
+    background: #E5E5E5;
+    border-radius: 22px;
+
+    color: #0A3871;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.btncopiar{
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 935px;
+    top: 500px;
+    background: #FFFFFF;
+    border-radius: 24px;
+
+    color: #0A3871;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.rectangulo{
+    position: absolute;
+    width: 400px;
+    height: 590px;
+    left: 900px;
+    right: 40px;
+    top: 30px; 
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.ningunmensaje {
+    position: absolute;
+    border: 0px;
+    width: 350px;
+    height: 58px;
+    left: 920px;
+    top: 400px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.muneco{
+    position: absolute;
+    z-index: 1;
+    width: 336px;
+    height: 304px;
+    left: 930px;
+    top: 72px; 
+}
+
+.signoadv{
+    position:absolute;
+    left: 130px;
+    top: 500px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; 
+}
+
+footer{
+    position: absolute; 
+    text-align: center;
+    font-size: 20px;
+    top: 100%;
+    width: 100%;
+}
+
+.linkedlin{
+    width: 20px;
+    height: 20px;
+}
